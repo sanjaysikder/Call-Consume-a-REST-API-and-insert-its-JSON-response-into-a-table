@@ -65,7 +65,8 @@ Inserts the parsed data into the api_data table.
 
 ## JSON Response (:P1_API_RESPONSE) insert into Oracle Table
 
-- insert data to Oracle Table
+
+```insert data to Oracle Table
 
 FOR rec IN (
         SELECT * FROM JSON_TABLE(:P1_API_RESPONSE, '$.*' 
@@ -112,9 +113,9 @@ EXCEPTION
 END;
 
 
+```
 
 
--- 
 
  # Thank you
  ## Sanjay Sikder
