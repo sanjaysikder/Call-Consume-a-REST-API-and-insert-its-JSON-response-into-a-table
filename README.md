@@ -10,11 +10,10 @@ The process involves:
 2. Parsing the JSON response using `JSON_TABLE`.
 3. Inserting the parsed data into an Oracle table.
 
-## Table Structure
+## Create Table Structure
 
 Before running the procedure, you must create a table to store the data returned by the API.
 
-### Create Table
 
 ```sql
 CREATE TABLE api_data (
