@@ -14,7 +14,7 @@ The process involves:
 
 Before running the procedure, you must create a table to store the data returned by the API.
 
-### Table Schema
+### Create Table
 
 ```sql
 CREATE TABLE api_data (
