@@ -41,10 +41,10 @@ Inserts the parsed data into the api_data table.
 
 - Call REST API and JSON Response into Page Item
   
-call rest api ---
+ Call rest api ```
+   
    declare 
    vResult clob;
-
 
    begin
         vResult := APEX_WEB_SERVICE.make_rest_request(
