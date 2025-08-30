@@ -1,5 +1,5 @@
 
-# call / Consume REST API and Insert its JSON Restonse into Oracle Table
+# Call / Consume REST API and Insert its JSON Restonse into Oracle Table
 
 This repository provides a PL/SQL solution to consume a REST API, parse the JSON response, and insert the data into an Oracle database table.
 
