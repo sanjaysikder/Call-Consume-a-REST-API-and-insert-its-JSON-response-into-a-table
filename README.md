@@ -41,7 +41,7 @@ Inserts the parsed data into the api_data table.
 
 - Call REST API and JSON Response into Page Item
   
- Call rest api ```
+ ```Call rest api
    
    declare 
    vResult clob;
@@ -55,13 +55,13 @@ Inserts the parsed data into the api_data table.
         );
 
 
-  --dbms_output.put_line('Token:'||vResult);
+  --dbms_output.put_line('Response:'||vResult);
 
     :P1_API_RESPONSE := vResult;
 
    end;
 
-``
+```
 
 ## JSON Response (:P1_API_RESPONSE) insert into Oracle Table
 
